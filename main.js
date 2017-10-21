@@ -24,6 +24,7 @@
 	}
 
 	function addHistory(item){
+		guessCount++;
 		var li = document.createElement("li");
 		li.innerText = item;
 		historyUl.appendChild(li);
